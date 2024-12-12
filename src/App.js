@@ -23,11 +23,27 @@ function App() {
       <h1 style={{ color: 'grey', marginBottom: '5%', textAlign: 'center', marginTop: '5%' }}>
         Authentication App
       </h1>
-      <div style={{ display: 'flex', justifyContent: 'center', gap: '100px', marginBottom: '5%' }}>
-        <div style={{ width: '400px', padding: '2rem', borderRadius: '8px', background: 'rgba(255, 255, 255, 0.8)', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '50px', marginBottom: '5%' }}>
+        <div
+          style={{
+            width: '400px',
+            padding: '2rem',
+            borderRadius: '8px',
+            background: 'rgba(255, 255, 255, 0.8)',
+            boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+          }}
+        >
           <SignUp />
         </div>
-        <div style={{ width: '400px', padding: '2rem', borderRadius: '8px', background: 'rgba(255, 255, 255, 0.8)', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
+        <div
+          style={{
+            width: '400px',
+            padding: '2rem',
+            borderRadius: '8px',
+            background: 'rgba(255, 255, 255, 0.8)',
+            boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+          }}
+        >
           <SignIn />
         </div>
       </div>
