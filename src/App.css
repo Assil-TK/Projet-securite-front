@@ -1,0 +1,93 @@
+/* App.css or styles.css */
+
+/* CSS Variables for easy theme management */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --button-hover: #1abc9c;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --border-radius: 8px;
+  --input-height: 40px;
+  --font-family: 'Roboto', sans-serif;
+}
+
+/* General Body Styles */
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for the form */
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Form Title */
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+/* Form Field Styles */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  height: var(--input-height);
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+/* Button Styles */
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+/* Error/Success Message */
+p {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--secondary-color);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
